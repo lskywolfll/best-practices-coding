@@ -1,7 +1,7 @@
 (() => {
 
-    // Ejemplo
-    // Archivos a evaluar - files to evaluate
+    // Example
+    // Files to evaluate - files to evaluate
     const filesToEvaluate = [
         { id: 1, flagged: false },
         { id: 2, flagged: false },
@@ -11,7 +11,7 @@
         { id: 7, flagged: true },
     ];
     
-    // Archivos marcados para borrar - files to delete
+    // Files flagged para delete - files to delete
     const filesToDelete = filesToEvaluate.map( file => file.flagged);
 
     //bad use names cases
@@ -25,7 +25,7 @@
     interface User { };
 
 
-    // Todo: Tarea
+    // Todo: HomeWork
         
     // día de hoy - today
     const today = new Date();
