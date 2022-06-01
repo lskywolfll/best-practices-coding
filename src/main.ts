@@ -1,6 +1,6 @@
 import './style.css';
 
-import './solid/04-segregation';
+import './solid/05-dependency-a';
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
