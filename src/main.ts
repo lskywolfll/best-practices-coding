@@ -1,6 +1,6 @@
 import './style.css';
 
-import './solid/05-dependency-a';
+import './sort/bubblesort';
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
